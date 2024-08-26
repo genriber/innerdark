@@ -12,11 +12,6 @@ theme:
     - navigation.expand
     - navigation.path
     - search
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
   language: ru
   logo: images/innerdark-logo.ico
   favicon: images/innerdark-favico.png
@@ -27,6 +22,7 @@ extra:
   article_nav_bottom: false
   history_buttons: false
 plugins:
+  - search
   - tags
   - obsidian-bridge
 markdown_extensions:

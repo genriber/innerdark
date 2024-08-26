@@ -11,11 +11,11 @@
     --md-accent-bg-color: #ff0000;
     --md-accent-bg-color--light: #ff0000;
 
-    --md-default-fg-color:        #ffffff;
+    --md-default-fg-color:        #bdbdbd;
     --md-default-fg-color--light: #dadada;
     --md-default-fg-color--dark:  #6d0007;
-    --md-default-bg-color:        #000000;
-    --md-default-bg-color--light: #000000;
+    --md-default-bg-color:        #141414;
+    --md-default-bg-color--light: #141414;
     --md-default-bg-color--lighter: #ffffff;
     --md-default-bg-color--lightest: #ffffff;
 
