@@ -1,0 +1,40 @@
+site_name: INNERDARK
+theme: 
+  name: 'material'
+  palette:
+    primary: custom
+    accent: custom
+    scheme: slate
+  font:
+    text: 'Oswald Light'
+    code: 'Oswald Thin'
+  features:
+    - navigation.expand
+    - navigation.path
+    - search
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: ru
+  logo: images/innerdark-logo.ico
+  favicon: images/innerdark-favico.png
+extra_css:
+  - stylesheets/extra.css
+extra:
+  article_nav_top: false
+  article_nav_bottom: false
+  history_buttons: false
+plugins:
+  - tags
+  - obsidian-bridge
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
