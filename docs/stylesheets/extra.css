@@ -19,4 +19,33 @@
     --md-default-bg-color--lighter: #ffffff;
     --md-default-bg-color--lightest: #ffffff;
 
+    .md-typeset h1{
+      font-size: 3em;
+      }
+
+    .md-typeset h2 {
+      font-size: 1.4;
+      line-height: 1.4;
+      margin: 1.6em 0 .64em
+      }
+
+    .md-typeset h1,.md-typeset h2 {
+      font-weight: 300;
+      letter-spacing: -.04em
+      }
+
+    .md-typeset {
+      -webkit-print-color-adjust: exact;
+      color-adjust: exact;
+      font-size: .7rem;
+      line-height: 1.6
+        }
+    .md-typeset a {
+          color: #e0e0e0;
+          word-break: break-word
+      }
+    .md-typeset a:hover {
+        color: #bb0000;
+        word-break: break-word
+    }
   }
