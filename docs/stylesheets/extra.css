@@ -1,51 +1,89 @@
 [data-md-color-scheme="slate"] {
-    color-scheme: dark;
-    --md-primary-fg-color:        #ffffff;
-    --md-primary-fg-color--light: #ff0000;
-    --md-primary-fg-color--dark:  #6d0007;
-    --md-primary-bg-color:        #1d1d1d;
-    --md-primary-bg-color--light: #1d1d1d;
+  color-scheme: dark;
+  --md-primary-fg-color:        #ffffff;
+  --md-primary-fg-color--light: #ff0000;
+  --md-primary-fg-color--dark:  #6d0007;
+  --md-primary-bg-color:        #1d1d1d;
+  --md-primary-bg-color--light: #1d1d1d;
 
-    --md-accent-fg-color: #bb0000;
-    --md-accent-fg-color--transparent: #68000088;
-    --md-accent-bg-color: #bb0000;
-    --md-accent-bg-color--light: #bb0000;
+  --md-accent-fg-color: #bb0000;
+  --md-accent-fg-color--transparent: #68000088;
+  --md-accent-bg-color: #bb0000;
+  --md-accent-bg-color--light: #bb0000;
 
-    --md-default-fg-color:        #bdbdbd;
-    --md-default-fg-color--light: #dadada;
-    --md-default-fg-color--dark:  #6d0007;
-    --md-default-bg-color:        #141414;
-    --md-default-bg-color--light: #141414;
-    --md-default-bg-color--lighter: #ffffff;
-    --md-default-bg-color--lightest: #ffffff;
+  --md-default-fg-color:        #bdbdbd;
+  --md-default-fg-color--light: #dadada;
+  --md-default-fg-color--dark:  #6d0007;
+  --md-default-bg-color:        #141414;
+  --md-default-bg-color--light: #141414;
+  --md-default-bg-color--lighter: #ffffff;
+  --md-default-bg-color--lightest: #ffffff;
 
-    .md-typeset h1{
-      font-size: 3em;
+  .md-typeset h1{
+    font-size: 3em;
+    }
+
+  .md-typeset h2 {
+    font-size: 1.4;
+    line-height: 1.4;
+    margin: 1.6em 0 .64em
+    }
+
+  .md-typeset h1,.md-typeset h2 {
+    font-weight: 300;
+    letter-spacing: -.04em
+    }
+
+  .md-typeset {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    font-size: .7rem;
+    line-height: 1.6
       }
-
-    .md-typeset h2 {
-      font-size: 1.4;
-      line-height: 1.4;
-      margin: 1.6em 0 .64em
-      }
-
-    .md-typeset h1,.md-typeset h2 {
-      font-weight: 300;
-      letter-spacing: -.04em
-      }
-
-    .md-typeset {
-      -webkit-print-color-adjust: exact;
-      color-adjust: exact;
-      font-size: .7rem;
-      line-height: 1.6
-        }
-    .md-typeset a {
-          color: #e0e0e0;
-          word-break: break-word
-      }
-    .md-typeset a:hover {
-        color: #bb0000;
+  .md-typeset a {
+        color: #e0e0e0;
         word-break: break-word
     }
+  .md-typeset a:hover {
+      color: #bb0000;
+      word-break: break-word
   }
+  .md-typeset .admonition,.md-typeset details {
+    background-color: #6d000734;
+    border: .075rem solid #bb0000;
+    border-radius: .2rem;
+    box-shadow: var(--md-shadow-z1);
+    color: #e0e0e0;
+    display: flow-root;
+    font-size: .64rem;
+    margin: 1.5625em 0;
+    padding: 0 .6rem;
+    page-break-inside: avoid;
+    transition: box-shadow 125ms
+}
+  .md-typeset .admonition-title:before,.md-typeset summary:before {
+    background-color: #bb0000;
+    content: "";
+    height: 1rem;
+    -webkit-mask-image: var(--md-admonition-icon--note);
+    mask-image: var(--md-admonition-icon--note);
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    position: absolute;
+    top: .625em;
+    width: 1rem
+}
+  .md-typeset .admonition-title,.md-typeset summary {
+    background-color: #ff44441a;
+    border: none;
+    font-weight: 700;
+    margin: 0 -.6rem;
+    padding-bottom: .4rem;
+    /* padding-top:.4rem; */
+    /* position:relative; */
+  }
+}
