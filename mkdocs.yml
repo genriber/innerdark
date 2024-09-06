@@ -17,10 +17,13 @@ theme:
   favicon: images/innerdark-favico.png
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/neoteroi-mkdocs.css
+  - stylesheets/neoteroi-timeline.css
 extra:
   article_nav_top: false
   article_nav_bottom: false
   history_buttons: false
+  generator: false
 plugins:
   - search
   - tags
@@ -32,3 +35,4 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
+  - neoteroi.timeline

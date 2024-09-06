@@ -19,6 +19,8 @@
   --md-default-bg-color--lighter: #ffffff;
   --md-default-bg-color--lightest: #ffffff;
 
+  --md-footer-bg-color--dark: #000000;
+
   .md-typeset h1{
     font-size: 3em;
     }
@@ -86,4 +88,8 @@
     /* padding-top:.4rem; */
     /* position:relative; */
   }
+  footer.md-footer {
+    color: #000000de;
+    background-color: #000000de;
+}
 }
